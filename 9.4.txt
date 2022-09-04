@@ -1,0 +1,171 @@
+#include <stdio.h>
+
+#include <string.h>
+
+#include <stdlib.h>
+
+#include <time.h>
+
+
+
+void 菜单()
+
+{
+
+	printf("***********************************\n");
+
+	printf("******1.开始游戏 2.结束游戏**********\n");
+
+	printf("***********************************\n");
+
+}
+
+void 游戏()
+
+{
+
+	int shuzi;
+
+	int ret;
+
+	printf("欢迎来到猜数字游戏！\n");
+
+	//srand();
+
+	ret = rand()%100+1;
+
+	//printf("%d\n", ret);
+
+
+
+	while (1)
+
+	{
+
+		printf("请输入你的数字：>");
+
+		scanf_s("%d", &shuzi);
+
+		if (shuzi>ret)
+
+		{
+
+			printf("猜大了\n");
+
+		}
+
+		else if (shuzi < ret)
+
+		{
+
+
+
+			printf("猜小了\n");
+
+		}
+
+		else {
+
+
+
+			printf("恭喜你答对了\n");
+
+			break;
+
+		}
+
+	}
+
+}
+
+int main() {
+
+
+
+	srand((long)time(NULL));
+
+	int 判断;
+
+	for (size_t i = 1; i <=9; i++)
+
+	{
+
+		for (int a = 1; a <=i; a++)
+
+		{
+
+			printf("%d*%d=%-3d", i, a, i * a);
+
+
+
+		}
+
+		printf("\n");
+
+	}
+
+	do
+
+	{
+
+		菜单();
+
+		printf("请选择\n");
+
+			scanf_s("%d", &判断);
+
+			if (判断 == 1)
+
+			{
+
+				游戏();
+
+				//开始游戏
+
+			}
+
+			else if(判断 == 2)
+
+			{
+
+				
+
+				printf("游戏结束\n");
+
+				break;
+
+			}
+
+			else {
+
+				printf("选择错误 请重新选择\n");
+
+				continue;
+
+			}
+
+			
+
+	} while (判断);
+
+	
+
+
+
+
+
+
+
+	return 0;
+
+
+
+}
+
+
+
+
+
+0
+3
+2
