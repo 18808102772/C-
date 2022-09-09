@@ -1,0 +1,9 @@
+﻿  text.c
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\Switch语句\Switch语句\text.c(13,7): warning C4102: “case1”: 未引用的标签
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\Switch语句\Switch语句\text.c(16,7): warning C4102: “case2”: 未引用的标签
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\Switch语句\Switch语句\text.c(19,7): warning C4102: “case3”: 未引用的标签
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\Switch语句\Switch语句\text.c(22,7): warning C4102: “case4”: 未引用的标签
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\Switch语句\Switch语句\text.c(25,7): warning C4102: “case5”: 未引用的标签
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\Switch语句\Switch语句\text.c(28,7): warning C4102: “case6”: 未引用的标签
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\Switch语句\Switch语句\text.c(31,7): warning C4102: “case7”: 未引用的标签
+  Switch语句.vcxproj -> C:\Users\QG\Desktop\学习库\C语言-code\C-\text\Switch语句\Debug\Switch语句.exe
