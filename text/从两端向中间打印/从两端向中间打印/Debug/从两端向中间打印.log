@@ -1,2 +1,6 @@
 ﻿  text.c
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\从两端向中间打印\从两端向中间打印\text.c(13,1): warning C4133: “初始化”: 从“char *”到“int *”的类型不兼容
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\从两端向中间打印\从两端向中间打印\text.c(14,1): warning C4133: “初始化”: 从“char *”到“int *”的类型不兼容
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\从两端向中间打印\从两端向中间打印\text.c(15,1): warning C4133: “初始化”: 从“char *”到“int *”的类型不兼容
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\从两端向中间打印\从两端向中间打印\text.c(16,1): warning C4133: “初始化”: 从“char *”到“int *”的类型不兼容
   从两端向中间打印.vcxproj -> C:\Users\QG\Desktop\学习库\C语言-code\C-\text\从两端向中间打印\Debug\从两端向中间打印.exe
