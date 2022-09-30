@@ -3,5 +3,5 @@
 #define COL 3
 
 //ÉùÃ÷
-void Initboard(char board[ROW][COL], int row, int col);
-void displayboard(char board[ROW][COL], int row, int col);
+//void Initboard(char board[ROW][COL], int row, int col);
+//void displayboard(char board[ROW][COL], int row, int col);
