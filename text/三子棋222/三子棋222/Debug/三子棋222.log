@@ -1,0 +1,4 @@
+﻿  game.c
+text.obj : error LNK2005: _Initboard 已经在 game.obj 中定义
+text.obj : error LNK2005: _displayboard 已经在 game.obj 中定义
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\三子棋222\Debug\三子棋222.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
