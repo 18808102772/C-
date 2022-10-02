@@ -1,4 +1,14 @@
 ﻿  game.c
+  text.c
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\三子棋222\三子棋222\text.c(25,11): warning C4013: “playmove”未定义；假设外部返回 int
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\三子棋222\三子棋222\text.c(34,15): warning C4013: “computermove”未定义；假设外部返回 int
+  正在生成代码...
 text.obj : error LNK2005: _Initboard 已经在 game.obj 中定义
+text.obj : error LNK2005: _computerboard 已经在 game.obj 中定义
 text.obj : error LNK2005: _displayboard 已经在 game.obj 中定义
-C:\Users\QG\Desktop\学习库\C语言-code\C-\text\三子棋222\Debug\三子棋222.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+text.obj : error LNK2005: _isfull 已经在 game.obj 中定义
+text.obj : error LNK2005: _iswin 已经在 game.obj 中定义
+text.obj : error LNK2005: _playboard 已经在 game.obj 中定义
+text.obj : error LNK2019: 无法解析的外部符号 _playmove，函数 _game 中引用了该符号
+text.obj : error LNK2019: 无法解析的外部符号 _computermove，函数 _game 中引用了该符号
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\三子棋222\Debug\三子棋222.exe : fatal error LNK1120: 2 个无法解析的外部命令
