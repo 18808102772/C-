@@ -1,8 +1,4 @@
 ﻿  game.c
-  text.c
-C:\Users\QG\Desktop\学习库\C语言-code\C-\text\三子棋222\三子棋222\text.c(25,11): warning C4013: “playmove”未定义；假设外部返回 int
-C:\Users\QG\Desktop\学习库\C语言-code\C-\text\三子棋222\三子棋222\text.c(34,15): warning C4013: “computermove”未定义；假设外部返回 int
-  正在生成代码...
 text.obj : error LNK2005: _Initboard 已经在 game.obj 中定义
 text.obj : error LNK2005: _computerboard 已经在 game.obj 中定义
 text.obj : error LNK2005: _displayboard 已经在 game.obj 中定义
