@@ -18,5 +18,11 @@
     <ClCompile Include="text.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="game.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

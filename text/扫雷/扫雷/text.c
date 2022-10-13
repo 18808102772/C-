@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "game.h"
 void menu()
 {
 	printf("*************************\n");
@@ -9,7 +9,12 @@ void menu()
 }
 void game()
 {
-	printf("扫雷\n");
+	//布置雷
+	char mine[ROWS][COLS] = {0};
+	//排查雷
+	char show[ROWS][COLS] = { 0 };
+	//初始化
+	initboard(mine, ROWS, COLS);
 }
 void text()
 {
