@@ -10,14 +10,22 @@ void menu()
 void game()
 {
 	//布置雷
-	char mine[ROWS][COLS] = {0};
+	char mine[ROWS][COLS] = { 0 };
 	//排查雷
 	char show[ROWS][COLS] = { 0 };
 	//初始化
-	initboard(mine, ROWS, COLS);
+	initboard(mine, ROWS, COLS, '0');
+	initboard(show, ROWS, COLS, '*');
+	//打印棋盘
+	displayboard(mine, ROW, COL);
+	displayboard(show, ROW, COL);
+	//布置雷
+	setmine(mine, ROW, COL);
+
 }
 void text()
 {
+	srand((unsigned int)time(NULL));
 	int input=0;
 	
 	do
