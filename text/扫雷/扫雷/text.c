@@ -17,10 +17,11 @@ void game()
 	initboard(mine, ROWS, COLS, '0');
 	initboard(show, ROWS, COLS, '*');
 	//¥Ú”°∆Â≈Ã
-	displayboard(mine, ROW, COL);
+	//displayboard(mine, ROW, COL);
 	displayboard(show, ROW, COL);
 	//≤º÷√¿◊
 	setmine(mine, ROW, COL);
+	//…®¿◊
 
 }
 void text()
