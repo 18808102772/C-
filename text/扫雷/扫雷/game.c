@@ -47,3 +47,40 @@ void setmine(char board[ROWS][COLS], int row, int col)
 	}
 
 }
+int get_mine_count(char mine[ROWS][COLS], int x, int y)
+{
+
+
+}
+void findmine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col)
+{
+	int x = 0;
+	int y = 0;
+	while (1)
+	{
+		printf("请输入排查雷的坐标：>");
+		scanf("%d%d", &x, &y);
+		if (x >= 1 && x <= row && y >= 1 && y <= col)
+		{
+			//坐标合法
+			//踩雷
+			if (mine[x][y] == '1')
+			{
+				printf("很遗憾，你被炸死了");
+				display(mine, row, col);
+				break;
+			}
+			//没踩雷
+			else
+			{
+				//计算x，y周围雷的个数
+				int count = get_mine_count;
+			}
+		}
+		else
+		{
+			printf("输入错误，请重新输入！\n");
+		}
+	}
+
+}

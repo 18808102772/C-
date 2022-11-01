@@ -22,7 +22,7 @@ void game()
 	//²¼ÖÃÀ×
 	setmine(mine, ROW, COL);
 	//É¨À×
-
+	findmine(mine, show, ROW, COL);
 }
 void text()
 {
