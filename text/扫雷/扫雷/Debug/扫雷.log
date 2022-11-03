@@ -1,2 +1,11 @@
 ﻿  game.c
-  扫雷.vcxproj -> C:\Users\QG\Desktop\学习库\C语言-code\C-\text\扫雷\Debug\扫雷.exe
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\扫雷\扫雷\game.c(81,12): warning C4013: “display”未定义；假设外部返回 int
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\扫雷\扫雷\game.c(90,22): warning C4048: “char (*)[9]”和“char (*)[11]”数组的下标不同
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\扫雷\扫雷\game.c(103,20): warning C4048: “char (*)[9]”和“char (*)[11]”数组的下标不同
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\扫雷\扫雷\game.c(88,1): warning C4047: “初始化”:“int”与“int (__cdecl *)(char (*)[11],int,int)”的间接级别不同
+  text.c
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\扫雷\扫雷\text.c(21,19): warning C4048: “char (*)[9]”和“char [11][11]”数组的下标不同
+  正在生成代码...
+Debug\game.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+game.obj : error LNK2019: 无法解析的外部符号 _display，函数 _findmine 中引用了该符号
+C:\Users\QG\Desktop\学习库\C语言-code\C-\text\扫雷\Debug\扫雷.exe : fatal error LNK1120: 1 个无法解析的外部命令
